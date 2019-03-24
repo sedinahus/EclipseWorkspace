@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class InClassLoopMethod2 {
+//	static double assignmentAverage;
+	
+	public static void getUserFeedback() {
+		Scanner input = new Scanner(System.in);
+		if(assignment) {
+			for(int a = 0; a < 5; a++) {
+				
+			}
+		} else if (quiz) {
+for(int a = 0; a < 5; a++) {
+				
+			}
+			
+		} else if (exam) {
+			
+		} else if (project) {
+			
+		}
+	}
+	
+	public static double calcAverage(double assignmentAverage) {
+		
+		
+		return calcAverage(assignmentAverage);
+	}
+
+	public static void main(String[] args) {
+//		double finalGrade = (.20 * assignmentAverage) + (.20 * quizAverage) + (.50 * examAverage) + (.10 * projectAverage);
+//		System.out.println("Your final grade is: " + finalGrade);
+		calcAverage(0);
+	}
+	
+
+}

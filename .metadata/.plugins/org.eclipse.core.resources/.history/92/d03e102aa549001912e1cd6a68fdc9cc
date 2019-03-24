@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class HW4RealOne {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		string custName;
+		System.out.println("Enter Your Name: ");
+		custName = input.nextLine();
+		
+		double custPaymentDue;
+		System.out.println("Enter Payment Due: ");
+		custPaymentDue = input.nextDouble();
+		
+		double custAmountPaid;
+		System.out.println("Enter Amount Paid");
+		custAmountPaid = input.nextDouble();
+
+		double custRemainBalance;
+		System.out.println("Remaining balance: ");
+		custRemainBalance = input.nextDouble();
+		
+		double totalPaymentDue = 0;
+		double totalAmountPaid = 0;
+		double totalRemainBalance = 0;
+		
+		if(custPaymentDue > custAmountPaid)
+		{
+			custRemainBalance = custPaymentDue - custAmountPaid;
+			
+		}
+		else custRemainBalance = 0;
+		totalPaymentDue = totalPaymentDue + custPaymentDue;
+		
+				
+		
+		
+		
+		
+	}
+
+}

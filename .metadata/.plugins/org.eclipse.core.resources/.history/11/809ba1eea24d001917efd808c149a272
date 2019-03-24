@@ -1,0 +1,44 @@
+import java.io.Console;
+import java.util.Scanner;
+public class InClassLoopMethod2 {
+	static double assignmentAverage, quizAverage, examAverage, projectAverage;
+
+	public static double calcAssignmentAverage() {
+
+
+		return calcAssignmentAverage();
+	}
+
+	public static double calcQuizAverage() {
+
+
+		return calcQuizAverage();
+	}
+	public static double calcExamAverage() {
+
+
+		return calcExamAverage();
+	}
+	public static double calcProjectAverage() {
+
+
+		return calcProjectAverage();
+	}
+	
+	public static double calcFinalGrade() {
+		calcAssignmentAverage();
+		calcQuizAverage();
+		calcExamAverage();
+		calcProjectAverage();
+//		double finalGrade = (.20 * assignmentAverage) + (.20 * quizAverage) + (.50 * examAverage) + (.10 * projectAverage);
+//		System.out.println("Your final grade is: " + finalGrade);
+		
+		return calcFinalGrade();
+	}
+
+	public static void main(String[] args) {
+		calcFinalGrade();
+	}
+
+
+}

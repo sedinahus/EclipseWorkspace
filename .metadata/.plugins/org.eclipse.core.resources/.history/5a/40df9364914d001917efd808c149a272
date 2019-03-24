@@ -1,0 +1,59 @@
+import java.io.Console;
+import java.util.Scanner;
+public class InClassLoopMethod2 {
+	static double assignmentInput;
+	
+	public static void getUserFeedback() {
+		Scanner gradeType = new Scanner(System.in);
+		System.out.println("What is being graded: Enter 1 for assignments, 2 for quizzes, 3 for exams, 4 for projects");
+		String input = gradeType.next();
+		int result = Integer.parseInt(input);
+		
+		if(result == 1) {
+//			assignment
+			System.out.println("Enter 5 assignment grades: ");
+			calcAverage(gradeType.nextDouble());
+			
+		} 
+//		else if (result == 2 ) {
+////			quiz
+//			for(int a = 0; a < 6; a++) {
+//				System.out.println("quiz");
+//			}
+//			
+//		} else if (result == 3) {
+////			exam
+//			for(int a = 0; a < 3; a++) {
+//				System.out.println("exam");
+//			}
+//			
+//		} else if (result == 4) {
+////			project
+//			for(int a = 0; a < 2; a++) {
+//				System.out.println("project");
+//			}
+//			
+//		} else {
+//			System.out.println("Invalid input");
+//		}
+	}
+	
+	public static double calcAverage(double assignmentAverage) {
+//		getUserFeedback();
+//		double assignmentAverage = 0;
+		for(int a = 0; a < 5; a++) {
+			assignmentAverage = assignmentAverage + assignmentInput;
+		}
+		System.out.println(assignmentAverage);
+		
+		return calcAverage(assignmentAverage / 5);
+	}
+
+	public static void main(String[] args) {
+//		double finalGrade = (.20 * assignmentAverage) + (.20 * quizAverage) + (.50 * examAverage) + (.10 * projectAverage);
+//		System.out.println("Your final grade is: " + finalGrade);
+		calcAverage(0);
+	}
+	
+
+}
