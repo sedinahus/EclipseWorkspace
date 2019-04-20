@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="/Users/sedina/Desktop/EclipseWorkspace/Method&apos;s Lab/javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/bin/javadoc" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="/Users/sedina/Desktop/EclipseWorkspace/Method&apos;s Lab/doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="InClassMethod">
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/InClassMethod/javadoc.xml" key="antpath"/>
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/InClassMethod/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Homeworks">
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/Homeworks/javadoc.xml" key="antpath"/>
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/Homeworks/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="InClassLoop">
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/InClassLoop/javadoc.xml" key="antpath"/>
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/InClassLoop/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="testing">
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/testing/javadoc.xml" key="antpath"/>
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/testing/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Method&apos;s Lab">
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/Method&apos;s Lab/javadoc.xml" key="antpath"/>
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/Method&apos;s Lab/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Examples">
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/Examples/javadoc.xml" key="antpath"/>
+				<item value="/Users/sedina/Desktop/EclipseWorkspace/Examples/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -15,6 +67,13 @@
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
 	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="516" key="DIALOG_HEIGHT"/>
+		<item value="420" key="DIALOG_X_ORIGIN"/>
+		<item value="68" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
