@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
-		<item value="484" key="DIALOG_X_ORIGIN"/>
+		<item value="398" key="DIALOG_X_ORIGIN"/>
 		<item value="305" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="&#x0A;public class StudentCourse {&#x0A;&#x09;&#x0A;&#x09;private int studentID;&#x0A;&#x09;private int courseID;&#x0A;&#x09;&#x0A;&#x09;public StudentCourse(int studentID, int courseID)&#x0A;&#x09;{&#x0A;&#x09;&#x09;super();&#x0A;&#x09;&#x09;this.studentID = studentID;&#x0A;&#x09;&#x09;this.courseID = courseID;&#x0A;&#x09;}&#x0A;&#x09;public int getStudentID()&#x0A;&#x09;{&#x0A;&#x09;&#x09;return studentID;&#x0A;&#x09;}&#x0A;&#x09;public int getCourseID()&#x0A;&#x09;{&#x0A;&#x09;&#x09;return courseID;&#x0A;&#x09;}&#x0A;&#x09;}&#x0A;" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="&#x0A;public class StudentCourse {&#x0A;&#x09;&#x0A;&#x09;private int studentID;&#x0A;&#x09;private int courseID;&#x0A;&#x09;&#x0A;&#x09;public StudentCourse(int studentID, int courseID)&#x0A;&#x09;{&#x0A;&#x09;&#x09;super();&#x0A;&#x09;&#x09;this.studentID = studentID;&#x0A;&#x09;&#x09;this.courseID = courseID;&#x0A;&#x09;}&#x0A;&#x09;public int getStudentID()&#x0A;&#x09;{&#x0A;&#x09;&#x09;return studentID;&#x0A;&#x09;}&#x0A;&#x09;public int getCourseID()&#x0A;&#x09;{&#x0A;&#x09;&#x09;return courseID;&#x0A;&#x09;}&#x0A;&#x09;}&#x0A;"/>
+			<item value="&#x0A;public class StudentInfo {&#x0A;&#x09;&#x0A;&#x09;private int studentID;&#x0A;&#x09;private String firstName;&#x0A;&#x09;private String lastName;&#x0A;&#x09;private String residency;&#x0A;&#x09;private String email;&#x0A;&#x09;&#x0A;&#x09;public StudentInfo(int studentID, String firstName, String lastName, String residency, String email) {&#x0A;&#x09;&#x09;super();&#x0A;&#x09;&#x09;this.studentID = studentID;&#x0A;&#x09;&#x09;this.firstName = firstName;&#x0A;&#x09;&#x09;this.lastName = lastName;&#x0A;&#x09;&#x09;this.residency = residency;&#x0A;&#x09;&#x09;this.email = email;&#x0A;&#x09;}&#x0A;&#x0A;&#x09;public int getStudentID() {&#x0A;&#x09;&#x09;return studentID;&#x0A;&#x09;}&#x0A;&#x0A;&#x09;public String getFirstName() {&#x0A;&#x09;&#x09;return firstName;&#x0A;&#x09;}&#x0A;&#x0A;&#x09;public String getLastName() {&#x0A;&#x09;&#x09;return lastName;&#x0A;&#x09;}&#x0A;&#x0A;&#x09;public String getResidency() {&#x0A;&#x09;&#x09;return residency;&#x0A;&#x09;}&#x0A;&#x0A;&#x09;public String getEmail() {&#x0A;&#x09;&#x09;return email;&#x0A;&#x09;}&#x0A;&#x0A;//&#x09;public void setStudentID(int studentID) {&#x0A;//&#x09;&#x09;this.studentID = studentID;&#x0A;//&#x09;}&#x0A;//&#x0A;//&#x09;public void setFirstName(String firstName) {&#x0A;//&#x09;&#x09;this.firstName = firstName;&#x0A;//&#x09;}&#x0A;//&#x0A;//&#x09;public void setLastName(String lastName) {&#x0A;//&#x09;&#x09;this.lastName = lastName;&#x0A;//&#x09;}&#x0A;//&#x0A;//&#x09;public void setResidency(String residency) {&#x0A;//&#x09;&#x09;this.residency = residency;&#x0A;//&#x09;}&#x0A;//&#x0A;//&#x09;public void setEmail(String email) {&#x0A;//&#x09;&#x09;this.email = email;&#x0A;//&#x09;}&#x0A;&#x09;&#x0A;&#x09;&#x0A;&#x0A;&#x09;&#x0A;&#x09;}&#x0A;"/>
+			<item value="main"/>
 			<item value="System"/>
 			<item value="console"/>
 		</list>
